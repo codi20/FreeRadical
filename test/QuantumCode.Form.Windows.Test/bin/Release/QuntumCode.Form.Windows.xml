@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>QuntumCode.Form.Windows</name>
+    </assembly>
+    <members>
+        <member name="T:QuntumCode.Form.Windows.MovableControlForm">
+            <summary>
+            一个窗体，其中容纳的控件可随鼠标移动
+            </summary>
+        </member>
+        <member name="F:QuntumCode.Form.Windows.MovableControlForm.WM_NCLBUTTONDOWN">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:QuntumCode.Form.Windows.MovableControlForm.HT_CAPTION">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:QuntumCode.Form.Windows.MovableControlForm.SendMessage(System.IntPtr,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            发送一个窗体消息
+            </summary>
+        </member>
+        <member name="M:QuntumCode.Form.Windows.MovableControlForm.ReleaseCapture">
+            <summary>
+            释放控制
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:QuntumCode.Form.Windows.MovableControlForm.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:QuntumCode.Form.Windows.MovableControlForm.AddDraggingControl(System.Windows.Forms.Control)">
+            <summary>
+            添加一个可移动的控件
+            </summary>
+            <param name="theControl"></param>
+        </member>
+        <member name="M:QuntumCode.Form.Windows.MovableControlForm.WndProc(System.Windows.Forms.Message@)">
+            <summary>
+            
+            </summary>
+            <param name="m"></param>
+        </member>
+        <member name="M:QuntumCode.Form.Windows.MovableControlForm.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            当鼠标移动时
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="F:QuntumCode.Form.Windows.MovableControlForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:QuntumCode.Form.Windows.MovableControlForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:QuntumCode.Form.Windows.MovableControlForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>

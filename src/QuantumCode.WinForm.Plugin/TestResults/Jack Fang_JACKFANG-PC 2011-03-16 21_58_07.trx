@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d0b8c4d6-ae7c-4b3f-8e1d-da5c11ce2b18" name="Jack Fang@JACKFANG-PC 2011-03-16 21:58:07" runUser="JackFang-PC\Jack Fang" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="a7e9a9a2-7ee6-4cc6-bee2-280ee5137526">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="L:\Projects\QuantumCode\src\QuantumCode.WinForm.Plugin\TestResults\Jack Fang_JACKFANG-PC 2011-03-16 21_58_07">
+      <DeploymentItem filename="L:\Projects\QuantumCode\src\QuantumCode.Common\bin\Release\QuantumCode.Common.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2011-03-16T21:58:07.2363100+08:00" queuing="2011-03-16T21:58:07.5103257+08:00" start="2011-03-16T21:58:07.5503279+08:00" finish="2011-03-16T21:58:08.0653574+08:00" />
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="l:\projects\quantumcode\test\quantumcode.common.test\bin\release\quantumcode.common.test.dll" id="21d8299f-c039-28d8-25cb-fdf61fd7da9b">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="7cf220e2-4eee-4e5c-b122-9106ceecc7a4" />
+      <TestMethod codeBase="L:\Projects\QuantumCode\test\QuantumCode.Common.Test\bin\Release\QuantumCode.Common.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="QuantumCode.Common.Test.UnitTest1, QuantumCode.Common.Test" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="21d8299f-c039-28d8-25cb-fdf61fd7da9b" executionId="7cf220e2-4eee-4e5c-b122-9106ceecc7a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7cf220e2-4eee-4e5c-b122-9106ceecc7a4" testId="21d8299f-c039-28d8-25cb-fdf61fd7da9b" testName="TestMethod1" computerName="JACKFANG-PC" duration="00:00:00.0145558" startTime="2011-03-16T21:58:07.5563283+08:00" endTime="2011-03-16T21:58:08.0543568+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <StdOut>test1
+test2
+test3</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
